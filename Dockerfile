@@ -42,7 +42,7 @@ RUN cp /app/conf/nginx.conf /etc/nginx/conf.d/default.conf \
 	&& mkdir /app/.env \
 	&& chmod 777 /app/.env \
 	&& chmod 777 /app/public/uploads \
-	&& chmod 777 /app/config
+	&& chmod 777 /app/config \
     && mv /usr/sbin/php-fpm7 /usr/sbin/php-fpm
 
 # 暴露端口
